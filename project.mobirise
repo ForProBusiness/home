@@ -50,16 +50,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".display-1": {
-              "font-weight": "700"
-            },
-            ".lead": {
-              "color": "#fff",
-              "text-transform": "uppercase",
-              "margin-bottom": "0"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -88,7 +78,12 @@
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-1"
+          "_anchor": "header3-1",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3 mbr-section-with-arrow\" data-bg-video=\"https://www.youtube.com/watch?v=HnPYeBJ9JCc\" data-rv-view=\"0\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(22, 160, 133);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n\n                    <p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" code-editable-id=\"34\">MANIFESTE SUA PRESENÇA DIGITAL</p>\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"35\">VOCÊ PRECISA ESTAR ONLINE</h1>\n\n                    <div class=\"mbr-section-btn\" style=\"text-align: left;\"><a class=\"btn btn-primary btn-lg mbr-editable-button\" href=\"index.html#features2-2\" code-editable-id=\"36\">SABER MAIS</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\">\n        <a href=\"#features2-2\">\n            <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrowdown.png\">\n        </a>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".display-1 {\n  font-weight: 700;\n}\n.lead {\n  color: #fff;\n  text-transform: uppercase;\n  margin-bottom: 0;\n}\n",
+          "_customTemplate": true
         },
         {
           "_styles": {
