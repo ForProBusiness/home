@@ -1,0 +1,771 @@
+{
+  "settings": {
+    "name": "forpro-new",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 20,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://forpro.com.br",
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "google-analytics": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '508329513361135');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=508329513361135&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "FORPRO - Fortaleça sua presença digital",
+        "meta_descr": "Não basta estar online, sue presença digital hoje é uma das principais formas de se mostrar ao mundo. Uma presença forte e marcante, com design, performance e segurança, são fundamentais.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#16a085",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "VOCÊ PRECISA ESTAR ONLINE",
+          "text": "MAnIFEStE SUA PRESENÇA DIGITAL",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"index.html#features2-2\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3498db",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3498db",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "globe-2",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "speed",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "DIFERENCIAIS",
+          "title1": "Bootstrap 4",
+          "subtitle1": "DESIGN APRIMORADO",
+          "caption1": "O Design do seu site será desenvolvido levando em conta sua demanda e do seu público, buscado causar o melhor impacto da sua presença online",
+          "buttons1": "<a data-app-btn=\"true\" href=\"page1.html#header11-h\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">QUERO FICAR ONLINE</a>",
+          "title2": "Responsive",
+          "subtitle2": "OTIMIZADO PARA O GOOGLE E INSTAGRAM",
+          "caption2": "Um site moderno não precisa ser pesado. Nosso desenvolvimento preve as melhores práticas para ser compatível com os padrões do google para subir no ranking das pesquisas, e para aumentar o alcance orgânico",
+          "buttons2": "<a data-app-btn=\"true\" href=\"page1.html#header11-h\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">QUERO FICAR ONLINE</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "PERFORMANCE e TECNOLOGIA",
+          "caption3": "Trabalhamos com as tecnologias mais atuais utilizaremos o que for mais adequado ao seu caso ou caso prefira você pode escolher. Sites no padrão Jamstack ou Wordpress.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"page1.html#header11-h\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">QUERO FICAR ONLINE</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-2"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f9593a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f9593a",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "lock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "rocket",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title": "RECURSOS",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Responsivo",
+          "caption1": "Seu site vai se apresentar da melhor forma de acordo com o dispositivo pelo qual for acessado",
+          "title2": "Responsive",
+          "subtitle2": "segurançA",
+          "caption2": "Certificado Digital SSL incluso e acesso seguro https obrigatório.",
+          "title3": "Web Fonts",
+          "subtitle3": "analytics",
+          "caption3": "Acompanhe o desempenho do seu site pelo google analytics, e pelo facebook pixel ( Instagram e Facebook Business ) - Instalação Inclusa em todos os produtos.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "performance",
+          "caption4": "A velocidade do seu site é fundamental para a experiência do usuário, para o ranking do google e para favorecer crescimento orgânico",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-3"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "default",
+            "secondType": "popular",
+            "thirdType": "default",
+            "fourthType": "default",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "INVESTIMENTO ÚNICO",
+          "subtitle": "Pague uma vez e garanta sua presença online !&nbsp;",
+          "title1": "Site",
+          "title2": "Site Hospedado",
+          "title3": "Site AMP",
+          "title4": "Ecommerce",
+          "label1": "POPULAR",
+          "label2": "MAIS COMPRADO",
+          "label3": "POPULAR",
+          "label4": "POPULAR",
+          "currency1": "R$",
+          "currency2": "R$",
+          "currency3": "R$",
+          "currency4": "R$",
+          "price1": "750",
+          "price2": "999",
+          "price3": "1470",
+          "price4": "3900",
+          "period1": "",
+          "period2": "",
+          "period3": "/mo",
+          "period4": "/mo",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Hospede em seu Servidor</b></li><li class=\"list-group-item\"><b>Receba</b>&nbsp;o site pronto</li><li class=\"list-group-item\"><br></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>2 anos </b>de hospedagem inclusos</li><li class=\"list-group-item\"><b>5&nbsp;</b>&nbsp;atualizações inclusas</li><li class=\"list-group-item\"><b>SSL</b> Certificado Incluso</li><li class=\"list-group-item\"><b>R$90</b>&nbsp;por atualização adicional</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>2 anos</b>&nbsp;de hospedagem inclusos</li><li class=\"list-group-item\"><b>5</b>&nbsp;atualizações inclusas</li><li class=\"list-group-item\"><b>SSL</b> Certificado Incluso</li><li class=\"list-group-item\"><b>R$120</b>&nbsp;por atualização adicional</li><li class=\"list-group-item\"><b>Performance</b> Incrível</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>1 ano</b>&nbsp;de hospedagem inclusa</li><li class=\"list-group-item\"><b>R$450</b>&nbsp;Suporte Mensal *Opcional</li><li class=\"list-group-item\"><b>SSL</b>&nbsp;Certificado Incluso</li><li class=\"list-group-item\">Formas de Pagamento Configuradas</li><li class=\"list-group-item\">Fretes e Correios Configurados</li><li class=\"list-group-item\">Parametrizações e 100 primeiros Produtos Cadastrados</li><li class=\"list-group-item\"><br></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">COMPRAR</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">COMPRAR</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">COMPRAR</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">COMPRAR</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-4",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"9\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"296\">INVESTIMENTO ÚNICO</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"297\">Pague uma vez e garanta sua presença online !&nbsp;</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"298\">Site</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"299\">R$</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"300\">750</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"301\"></small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"302\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>Hospede em seu Servidor</strong></li><li class=\"list-group-item\"><strong>Receba</strong>&nbsp;o site pronto</li><li class=\"list-group-item\"><br></li></ul></div>\n                      <div class=\"mbr-plan-btn\"><a href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary mbr-editable-button\" code-editable-id=\"303\">COMPRAR</a></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"304\">MAIS COMPRADO</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"305\">Site Hospedado</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"306\">R$</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"307\">999</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"308\"></small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"309\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>2 anos </strong>de hospedagem inclusos</li><li class=\"list-group-item\"><strong>5&nbsp;</strong>&nbsp;atualizações inclusas</li><li class=\"list-group-item\"><strong>SSL</strong> Certificado Incluso</li><li class=\"list-group-item\"><strong>R$90</strong>&nbsp;por atualização adicional</li></ul></div>\n                      <div class=\"mbr-plan-btn\"><a href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary mbr-editable-button\" code-editable-id=\"310\">COMPRAR</a></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"311\">Site AMP</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"312\">R$</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"313\">1470</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"314\">/mo</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"315\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>2 anos</strong>&nbsp;de hospedagem inclusos</li><li class=\"list-group-item\"><strong>5</strong>&nbsp;atualizações inclusas</li><li class=\"list-group-item\"><strong>SSL</strong> Certificado Incluso</li><li class=\"list-group-item\"><strong>R$120</strong>&nbsp;por atualização adicional</li><li class=\"list-group-item\"><strong>Performance</strong> Incrível</li></ul></div>\n                      <div class=\"mbr-plan-btn\"><a href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary mbr-editable-button\" code-editable-id=\"316\">COMPRAR</a></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"317\">Ecommerce</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"318\">R$</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"319\">3900</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"320\">/mo</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"321\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>1 ano</strong>&nbsp;de hospedagem inclusa</li><li class=\"list-group-item\"><strong>R$450</strong>&nbsp;Suporte Mensal *Opcional</li><li class=\"list-group-item\"><strong>SSL</strong>&nbsp;Certificado Incluso</li><li class=\"list-group-item\">Formas de Pagamento Configuradas</li><li class=\"list-group-item\">Fretes e Correios Configurados</li><li class=\"list-group-item\">Parametrizações e 100 primeiros Produtos Cadastrados</li><li class=\"list-group-item\"><br></li></ul></div>\n                      <div class=\"mbr-plan-btn\"><a href=\"index.html#form1-i\" class=\"btn btn-primary-outline btn-primary mbr-editable-button\" code-editable-id=\"322\">COMPRAR</a></div>\n                    </div>\n                </div>\n            </div>\n          </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n\nspan.mbr-price-figure.mbr-editable-content{\n        font-size: 60px;\n\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showHeader": true,
+            "showHeaderText": true,
+            "showSubtitles": true,
+            "showTitles": true,
+            "showText": true,
+            "showButtons": true,
+            "activeColor": "#fff",
+            "themeColor": "@primaryColor",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/06.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#f1c40f",
+            "overlayOpacity": 0.9
+          },
+          "header": "Sua Demanda é específica?",
+          "text": "<b>Escolha qual o seu caso que iremos montar uma proposta personalizada ã sua demanda</b>",
+          "subtitle1": "JAMSTACK",
+          "subtitle2": "WORDPRESS",
+          "title1": "PERFORMANCE",
+          "title2": "ATUALIZAÇÕES CONSTANTES",
+          "text1": "Melhor performance, mais segurança e menor custo de hospedagemb",
+          "text2": "Atualizações conantes, blog, ecommerce, e a credibilidade desta plataforma",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#form1-i\" data-toolbar=\"-mbrBtnMove\">QUERO FICAR ONLINE</a>",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"index.html#form1-i\" data-toolbar=\"-mbrBtnMove\">QUERO FICAR ONLINE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call7",
+          "_anchor": "call7-7",
+          "_customCSS": ".call-card.active .title {\n  font-size: 40px;\n}\n.title {\n  font-size: 40px;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero call7 mbr-parallax-background\" data-rv-view=\"12\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/06.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(241, 196, 15);\"></div>\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2 text-xs-left call-inner\">\n\n                    <div class=\"col-xs-12 text-xs-center\">\n                        <h1 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"151\">Sua Demanda é específica?</h1>\n                        <p class=\"mbr-section-text lead subtitle mbr-editable-content\" code-editable-id=\"152\"><strong>Escolha qual o seu caso que iremos montar uma proposta personalizada à sua demanda</strong></p>\n                    </div>\n\n                    <div class=\"row\">\n                        <div class=\"col-xs-12 col-lg-6 text-xs-center call-card\">\n                            <h3 class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"153\">JAMSTACK</h3>\n                            <h2 class=\"mbr-section-title display-4 title mbr-editable-content\" code-editable-id=\"154\">PERFORMANCE</h2>\n                            <p class=\"mbr-section-text lead text mbr-editable-content\" code-editable-id=\"155\">Melhor performance, mais segurança e menor custo de hospedagemb</p>\n\n                            <div class=\"mbr-section-btn text-xs-center\"><a class=\"btn btn-primary-outline mbr-editable-button\" href=\"index.html#form1-i\" code-editable-id=\"156\">QUERO FICAR ONLINE</a></div>\n                        </div>\n\n                        <div class=\"col-xs-12 col-lg-6 text-xs-center call-card active\" style=\"background: rgb(255, 255, 255);\">\n                            <h3 class=\"mbr-section-subtitle display-3 mbr-editable-content\" code-editable-id=\"157\">WORDPRESS</h3>\n                            <h2 class=\"mbr-section-title display-4 title mbr-editable-content\" code-editable-id=\"158\">ATUALIZAÇÕES CONSTANTES</h2>\n                            <p class=\"mbr-section-text lead text mbr-editable-content\" code-editable-id=\"159\">Atualizações conantes, blog, ecommerce, e a credibilidade desta plataforma</p>\n\n                            <div class=\"mbr-section-btn text-xs-center\"><a class=\"btn btn-primary-outline mbr-editable-button\" href=\"index.html#form1-i\" code-editable-id=\"160\">QUERO FICAR ONLINE</a></div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "CONTATO",
+          "subtitle": "sua presença Digital com design, performace e segurança",
+          "text": "ENTRE EM CONTATO PARA TER A SEU FAVOR A MAIS AVANÇADA TECNOLOGIA EM SITES OU ECOMMERCE",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTATO</a>",
+          "form": {
+            "action": "ronmlima@gmail.com",
+            "alerts": {
+              "success": "Vamos fortalecer sua presença digital"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Escolha seu Plano ou solicite mais informações"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-i"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1920.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://forpro.com.br",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "FORPRO - FORTALEÇA SUA PRESENÇA",
+          "form": {
+            "action": "ronmlima@gmail.com",
+            "alerts": {
+              "success": "Vamos fortalecer sua presença digital"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-j"
+        }
+      ]
+    },
+    "contato.html": {
+      "settings": {
+        "title": "Contato",
+        "meta_descr": "Não basta estar online, sue presença digital hoje é uma das principais formas de se mostrar ao mundo. Uma presença forte e marcante, com design, performance e segurança, são fundamentais.",
+        "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '508329513361135');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=508329513361135&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "SITE",
+            "animText2": "ECOMMERCE",
+            "animText3": "CONSULTORIA",
+            "typeSpeed": 60,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/11-2.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "ENTE EM CONTATO&nbsp;",
+          "text": "A MUITO TEMPO A PRESENÇA ONLINE É IMPORTANTE E HOJE EM DIA É FUNDAMENTAL. ENTRE EM CONTATO E COM UM INVESTIMENTO ÚNICO FORTALECA SUA PRESENÇA DIGITAL",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html#form1-f\" data-toolbar=\"-mbrBtnMove\">ENTRAR EM CONTATO</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header11",
+          "_anchor": "header11-h"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "CONTATO",
+          "subtitle": "sua presença Digital com design, performace e segurança",
+          "text": "ENTRE EM CONTATO PARA TER A SEU FAVOR A MAIS AVANÇADA TECNOLOGIA EM SITES OU ECOMMERCE",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTATO</a>",
+          "form": {
+            "action": "ronmlima@gmail.com",
+            "alerts": {
+              "success": "Vamos fortalecer sua presença digital"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Escolha seu Plano ou solicite mais informações"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-f"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1920.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://forpro.com.br",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "FORPRO - FORTALEÇA SUA PRESENÇA",
+          "form": {
+            "action": "ronmlima@gmail.com",
+            "alerts": {
+              "success": "Vamos fortalecer sua presença digital"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-j"
+        }
+      ]
+    }
+  }
+}
